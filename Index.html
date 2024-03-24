@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.10">
+   <title>ET</title>
+
+<style>
+    
+  
+    body {
+background-color: #ffffff;
+background-image: url("Ellipse\ 4.png"), url("IMG_0050.PNG"), url("Ellipse\ 3.png"), url("Ellipse\ 2.png");
+background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+background-position: left top, right top, left top, right top;
+background-size: 469px, 700px, 710px, 1100px;
+}
+
+
+ 
+.container { 
+            padding: 100px; 
+            position: relative;
+            top: 1000px;
+        } 
+        .textbox { 
+            width: 100%; 
+            padding: 40px; 
+            font-size: 70px; 
+            border-radius: 2px; 
+            border: 1px solid #ccc;
+            box-sizing: border-box; 
+            margin-bottom: 0px; 
+           
+        } 
+
+
+
+       
+
+
+
+
+</style>
+
+
+
+
+</head>
+
+
+<body>
+   
+   
+    <div class="container"> 
+        <textarea class="textbox" placeholder="Enter First Name"></textarea> 
+    </div> 
+ 
+    <div class="container"> 
+        <textarea class="textbox" placeholder="Enter Last Name"></textarea> 
+    </div> 
+
+
+    <div class="container"> 
+        <textarea class="textbox" placeholder="Enter Your Email"></textarea> 
+    </div>
+
+    <div class="container"> 
+        <textarea class="textbox" placeholder="PassWord"></textarea> 
+    </div>
+
+
+
+    <script> 
+        const textbox = document.querySelector('.textbox'); 
+        textbox.addEventListener('input', (event) => { 
+            console.log(event.target.value); 
+        }); 
+    </script> 
+
+ <h1></h1>
+
+ <input type="submit" value="Sign Up" style="position: absolute; top: 3000px; left:550px; width: 500px;  height: 100px; font-size: 90px; background-color: #294d3e; color: black; " >
+
+    
+
+
+        </body>
+</html>
